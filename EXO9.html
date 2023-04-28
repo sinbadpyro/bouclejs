@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boucles: EXO 9</title>
+</head>
+
+<body>
+    <h2 style="background:#008080; border-radius: 20px; padding: 20px; width: 60%;
+           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         margin: auto; color:#fbcce7">
+        A l'aide d'une boucle, créer "un string" qui sera les
+        chiffres de 1 à 10 en Kebab-Case puis l'afficher dans la console. Ex.
+        - "1-2-3-4-5-6-7-8-9-10"
+    </h2>
+    <script>
+         const kebab = ["1", "-2", "-3", "-4", "-5", "-6", "-7", "-8", "-9", "-10"];
+
+         let text = "";
+         for(let i= 0; i<=kebab.length; i++){
+                text+=kebab[i];
+         }
+         console.log(text);
+    </script>
+</body>
+
+</html>
